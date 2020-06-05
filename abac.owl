@@ -1,0 +1,1974 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#"
+     xml:base="http://www.semanticweb.org/steven/ontologies/2020/4/abac3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:abac3="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLAnnotationProperty_b45dea35_1735_4be1_a00a_95b49dcfd8da -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLAnnotationProperty_b45dea35_1735_4be1_a00a_95b49dcfd8da">
+        <rdfs:label xml:lang="en">abac:propertyType</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLAnnotationProperty_b52ab737_1fff_4fb3_be19_7c81d92dc993 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLAnnotationProperty_b52ab737_1fff_4fb3_be19_7c81d92dc993">
+        <rdfs:label xml:lang="en">abac:classType</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLAnnotationProperty_db6e26a9_2582_47ed_b451_18517896a24d -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLAnnotationProperty_db6e26a9_2582_47ed_b451_18517896a24d">
+        <rdfs:label xml:lang="en">abac:classType</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_07322132_bf36_4562_8148_aa10006ca987 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_07322132_bf36_4562_8148_aa10006ca987">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasArgument</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_2373e055_f31e_4f06_ad8f_377dfd282775 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_2373e055_f31e_4f06_ad8f_377dfd282775">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <OWLAnnotationProperty_b45dea35_1735_4be1_a00a_95b49dcfd8da>rule-combining-algorithm</OWLAnnotationProperty_b45dea35_1735_4be1_a00a_95b49dcfd8da>
+        <rdfs:label xml:lang="en">hasRuleCombiningAlgorithm</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_33fdbe0f_5a18_4a04_b6dd_edc6826597e6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_33fdbe0f_5a18_4a04_b6dd_edc6826597e6">
+        <rdfs:label xml:lang="en">hasPolicy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_368eda5e_ef03_4953_a4f2_5b112af6600d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_368eda5e_ef03_4953_a4f2_5b112af6600d">
+        <rdfs:label xml:lang="en">hasMatch</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasFunction</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3fd21667_4667_4dc3_8166_25be94fc5176 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3fd21667_4667_4dc3_8166_25be94fc5176">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasFixedValue</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4431d704_1f39_4676_bb97_f090aff3e038 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4431d704_1f39_4676_bb97_f090aff3e038">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasCondition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_459571c7_a96d_4c61_b109_572b44d01715 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_459571c7_a96d_4c61_b109_572b44d01715">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasEffect</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">hasAttributeType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_730fafbb_1ea4_4205_b23e_ceeec8b063b4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_730fafbb_1ea4_4205_b23e_ceeec8b063b4">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <OWLAnnotationProperty_b45dea35_1735_4be1_a00a_95b49dcfd8da>policy-combining-algorithm</OWLAnnotationProperty_b45dea35_1735_4be1_a00a_95b49dcfd8da>
+        <rdfs:label xml:lang="en">hasPolicyCombiningAlgorithm</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasDatatype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">isAttributeOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c5b09f4c_2fa9_47b8_9fb3_fcc3a2f42f23 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c5b09f4c_2fa9_47b8_9fb3_fcc3a2f42f23">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_07322132_bf36_4562_8148_aa10006ca987"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasSecondArgument</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_07322132_bf36_4562_8148_aa10006ca987"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasFirstArgument</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_da12be56_6ea5_4144_b338_b39ff7ece9f8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_da12be56_6ea5_4144_b338_b39ff7ece9f8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasRule</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_f04ea13c_4510_4097_983b_90da05094612 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_f04ea13c_4510_4097_983b_90da05094612">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasTarget</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_02653c51_b669_4449_bb4e_5827692e2313 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_02653c51_b669_4449_bb4e_5827692e2313">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_798c4e62_7e21_469c_b2eb_d07d288022f5"/>
+        <rdfs:label xml:lang="en">Deny</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_030dbc42_9ac6_4f11_a089_93c866aa5ac7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_030dbc42_9ac6_4f11_a089_93c866aa5ac7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_578dc3f5_d983_43e0_b2dc_7d3082b185b9"/>
+        <rdfs:label xml:lang="en">TargetAll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_097f3c5f_0c47_4b8f_93d0_b843bdb24d1c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_097f3c5f_0c47_4b8f_93d0_b843bdb24d1c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_fe7afffb_d86d_452d_a1a8_b1241b6b6fcd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_33fdbe0f_5a18_4a04_b6dd_edc6826597e6"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_73b3e426_32b5_4edb_821b_f353924338bc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_33fdbe0f_5a18_4a04_b6dd_edc6826597e6"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ea1753b8_dd7c_432a_8aae_2739a4047b40"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_730fafbb_1ea4_4205_b23e_ceeec8b063b4"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d0bb7d46_056f_4b71_b9b0_9d424e09b807"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_f04ea13c_4510_4097_983b_90da05094612"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_030dbc42_9ac6_4f11_a089_93c866aa5ac7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">HospitalPolicySet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_0d0d8d7b_241c_4f08_abc6_5ccd96a25e6a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_0d0d8d7b_241c_4f08_abc6_5ccd96a25e6a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_afcd5100_01fc_4fdf_a4e7_2a61100f26b0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">OnlyOnePatientId</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1350fae6_06dc_4831_a93b_eaa77c0f442b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1350fae6_06dc_4831_a93b_eaa77c0f442b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d57b83fc_14b9_4ee4_8fe2_3099bce2a6ca"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5f384f04_adb7_4003_986f_4288266e03af"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">OnlyOnePhysycianEmployedBy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_136c6f79_77ce_4d90_9e5f_bf17e7f07e43 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_136c6f79_77ce_4d90_9e5f_bf17e7f07e43">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_f970721a_ebd5_4c00_9156_d587a9fa4697"/>
+        <rdfs:label xml:lang="en">NamedEnvironment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_14dc5512_9acc_492f_9b87_5f805c98e4dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_14dc5512_9acc_492f_9b87_5f805c98e4dd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a1e4894e_8fc5_4916_9c10_aa78ba365c8b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">ActionType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1720371c_5c69_479b_9f6c_e9c13a17b74b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1720371c_5c69_479b_9f6c_e9c13a17b74b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_51874529_1ac6_4309_b590_db2935af26dd"/>
+        <rdfs:label xml:lang="en">PermitUnlessDeny</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1a03cb59_8796_4980_a86e_fa957a920b84 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1a03cb59_8796_4980_a86e_fa957a920b84">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8ed436f_b4b2_40aa_b415_cba711766ae1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9641c933_5006_4963_93cc_9c3b7edb9396"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ac2512d1_1011_4eed_95a5_f3e4fb071a07"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PhysicianHospitalIdInPatientFileHospitalId</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_feb6ab41_b1b1_47ca_bcad_cca6524dd772"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">NamedAttributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_207cc902_8562_4fbf_af7d_ba852e957602 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_207cc902_8562_4fbf_af7d_ba852e957602">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c7a854e8_ba4d_48cc_a1c6_7d861c5c122b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3fd21667_4667_4dc3_8166_25be94fc5176"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cd947230_368f_4dd7_9375_6064659ec38c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PhysicianSubjectType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_20b0a6ee_fea1_45fa_b646_2d60b84b6511 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_20b0a6ee_fea1_45fa_b646_2d60b84b6511">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d57b83fc_14b9_4ee4_8fe2_3099bce2a6ca"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5e36c398_8d27_4f7e_9bc5_78b5f839ab99"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">OnlyOnePatientFilePatientId</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_20f509a6_82b0_43ef_bcb8_d95ccaf63131 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_20f509a6_82b0_43ef_bcb8_d95ccaf63131">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cd947230_368f_4dd7_9375_6064659ec38c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PhysicianIdentifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_211e06e2_c556_401f_86bd_b007ea28e2fd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_211e06e2_c556_401f_86bd_b007ea28e2fd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9c6bf1d8_138a_4c2d_8258_3ed16ed5623e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1a03cb59_8796_4980_a86e_fa957a920b84"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PhysicianHospitalIdNotInPatientFileHospitalId</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_22b901bd_96c3_4e50_85e3_b9c23305ab9e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_22b901bd_96c3_4e50_85e3_b9c23305ab9e">
+        <rdfs:label xml:lang="en">Rules</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_2a3831cb_407e_4d57_b5cb_615522da954c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_2a3831cb_407e_4d57_b5cb_615522da954c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c7a854e8_ba4d_48cc_a1c6_7d861c5c122b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3fd21667_4667_4dc3_8166_25be94fc5176"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e13cf6d4_c6f6_4fa4_b54b_59135ba36f75"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PatientSubjectType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_2e0074d7_d5c2_4217_a96a_f720d5b29829 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_2e0074d7_d5c2_4217_a96a_f720d5b29829">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_798c4e62_7e21_469c_b2eb_d07d288022f5"/>
+        <rdfs:label xml:lang="en">Indeterminate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_36113919_6433_4267_99b9_35ead0b0c2c1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_36113919_6433_4267_99b9_35ead0b0c2c1">
+        <rdfs:label xml:lang="en">Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_36c0b725_64a4_40f2_9e07_8ae6843bd800 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_36c0b725_64a4_40f2_9e07_8ae6843bd800">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a68233da_8c13_40c0_90ee_86d7663c297e"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359"/>
+        <rdfs:label xml:lang="en">Static</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_390dfa9d_3b5b_410b_842f_5409914037ed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_390dfa9d_3b5b_410b_842f_5409914037ed">
+        <OWLAnnotationProperty_b52ab737_1fff_4fb3_be19_7c81d92dc993>Policy</OWLAnnotationProperty_b52ab737_1fff_4fb3_be19_7c81d92dc993>
+        <rdfs:label xml:lang="en">Policy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_39e94d06_fed7_4377_8c17_742c23bd9415 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_39e94d06_fed7_4377_8c17_742c23bd9415">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_390dfa9d_3b5b_410b_842f_5409914037ed"/>
+        <rdfs:label xml:lang="en">NamedPolicy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_3fa00fa9_f7f1_43da_af3c_6b6d1eec3dce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_3fa00fa9_f7f1_43da_af3c_6b6d1eec3dce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d98c4d10_e6eb_4656_b9f9_49192b703ab1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PrimaryPhysicianIdentifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_dc87f4ad_b6e7_4148_a95e_d7cd1eda620e"/>
+        <rdfs:label xml:lang="en">NamedCondition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_454d36e5_b6c0_4b88_a74f_8a7d2ce9ae98 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_454d36e5_b6c0_4b88_a74f_8a7d2ce9ae98">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a3b0cd2e_c0ce_4de3_ad4d_1277aeb7b5c7"/>
+        <rdfs:label xml:lang="en">NamedResource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_4cd44a8a_0d41_46fb_ba98_5293ff07fc19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_4cd44a8a_0d41_46fb_ba98_5293ff07fc19">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_798c4e62_7e21_469c_b2eb_d07d288022f5"/>
+        <rdfs:label xml:lang="en">NotApplicable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_4e90e185_e090_4e42_8bc9_1d9b6c646df8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_4e90e185_e090_4e42_8bc9_1d9b6c646df8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6d028003_5019_45f0_a234_c428313f6fb9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c5b09f4c_2fa9_47b8_9fb3_fcc3a2f42f23"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_20f509a6_82b0_43ef_bcb8_d95ccaf63131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_95e6de13_96ae_4afc_a220_9b9ad2888fad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PhysicianIdInPatientFileConsentedPhysicanId</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_51874529_1ac6_4309_b590_db2935af26dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_51874529_1ac6_4309_b590_db2935af26dd">
+        <rdfs:label xml:lang="en">CombiningAlgorithm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_52a28d04_69b4_4727_bf7e_db47ce017dc5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_52a28d04_69b4_4727_bf7e_db47ce017dc5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_36113919_6433_4267_99b9_35ead0b0c2c1"/>
+        <rdfs:label xml:lang="en">Subject</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_569067d1_ceb5_4302_a630_ffea81ad3fa5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_569067d1_ceb5_4302_a630_ffea81ad3fa5">
+        <rdfs:label xml:lang="en">Datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_578dc3f5_d983_43e0_b2dc_7d3082b185b9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_578dc3f5_d983_43e0_b2dc_7d3082b185b9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5b874b9b_fda0_453c_bc0b_94a39a98af49"/>
+        <rdfs:label xml:lang="en">NamedTarget</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5b874b9b_fda0_453c_bc0b_94a39a98af49 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5b874b9b_fda0_453c_bc0b_94a39a98af49">
+        <rdfs:label xml:lang="en">Target</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5ccd1d88_24ae_4024_9dbf_7cf730ff4754 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5ccd1d88_24ae_4024_9dbf_7cf730ff4754">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a55db16b_d56f_4b3e_9802_1eed2771d3b4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8ed436f_b4b2_40aa_b415_cba711766ae1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6133a0af_8c01_481b_bf55_ff71de67598e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PhysicianIdIsPatientFilePrimaryPhysicianId</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5e36c398_8d27_4f7e_9bc5_78b5f839ab99 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5e36c398_8d27_4f7e_9bc5_78b5f839ab99">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d98c4d10_e6eb_4656_b9f9_49192b703ab1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PatientFilePatientIdentifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5f384f04_adb7_4003_986f_4288266e03af -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5f384f04_adb7_4003_986f_4288266e03af">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cd947230_368f_4dd7_9375_6064659ec38c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">EmployedByInsuranceFirmIdentifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5f53853d_fe8a_4286_9ed3_98956db34690 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5f53853d_fe8a_4286_9ed3_98956db34690">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cf16416d_2330_42f8_8e8a_f0a964fb8ba3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4431d704_1f39_4676_bb97_f090aff3e038"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_4e90e185_e090_4e42_8bc9_1d9b6c646df8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_459571c7_a96d_4c61_b109_572b44d01715"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e751882d_be25_4f8c_91b1_785ab5d5c21b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_f04ea13c_4510_4097_983b_90da05094612"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_030dbc42_9ac6_4f11_a089_93c866aa5ac7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PhysicianWithConsentIsAllowedToAccessPatientFile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_604e9250_3b8c_4622_a2a5_43ee7e7b4b3e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_604e9250_3b8c_4622_a2a5_43ee7e7b4b3e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c7a854e8_ba4d_48cc_a1c6_7d861c5c122b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3fd21667_4667_4dc3_8166_25be94fc5176"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d98c4d10_e6eb_4656_b9f9_49192b703ab1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PatientFileResourceType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6133a0af_8c01_481b_bf55_ff71de67598e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6133a0af_8c01_481b_bf55_ff71de67598e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d57b83fc_14b9_4ee4_8fe2_3099bce2a6ca"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_3fa00fa9_f7f1_43da_af3c_6b6d1eec3dce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">OnlyOnePatientFilePrimaryCarePhysician</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_656e1b8b_80e2_44c1_82d1_5ab81fe9725b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_656e1b8b_80e2_44c1_82d1_5ab81fe9725b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cd947230_368f_4dd7_9375_6064659ec38c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PhysicianHospitalIdentifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_65c28257_5fc2_493c_9e22_976566c15752 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_65c28257_5fc2_493c_9e22_976566c15752">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_52a28d04_69b4_4727_bf7e_db47ce017dc5"/>
+        <rdfs:label xml:lang="en">NamedSubject</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6a0d30d0_1030_47fb_b935_00dfcdb936cd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6a0d30d0_1030_47fb_b935_00dfcdb936cd">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8ed436f_b4b2_40aa_b415_cba711766ae1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c5b09f4c_2fa9_47b8_9fb3_fcc3a2f42f23"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_14dc5512_9acc_492f_9b87_5f805c98e4dd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8a4e1f7_e464_4938_9790_c2e183c80d60"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">MatchFunction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6d028003_5019_45f0_a234_c428313f6fb9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6d028003_5019_45f0_a234_c428313f6fb9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_da5f2a28_4560_4d9d_aac9_2bd9d3ae9940"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8ed436f_b4b2_40aa_b415_cba711766ae1"/>
+        <rdfs:label xml:lang="en">OneOfStringsEquals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6e84f062_0878_4d1b_a02a_3631469bd7b1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6e84f062_0878_4d1b_a02a_3631469bd7b1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d98c4d10_e6eb_4656_b9f9_49192b703ab1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PatientFileHospitalIdentifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_73b3e426_32b5_4edb_821b_f353924338bc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_73b3e426_32b5_4edb_821b_f353924338bc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_39e94d06_fed7_4377_8c17_742c23bd9415"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_2373e055_f31e_4f06_ad8f_377dfd282775"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_78849309_fab5_4e11_950b_7052aefc9738"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_da12be56_6ea5_4144_b338_b39ff7ece9f8"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5f53853d_fe8a_4286_9ed3_98956db34690"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_da12be56_6ea5_4144_b338_b39ff7ece9f8"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_7580fa2e_8fc7_4249_b791_8881510f4c3b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_da12be56_6ea5_4144_b338_b39ff7ece9f8"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_bb1e27a6_2d0c_4b55_ba53_f1f946e5983f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_da12be56_6ea5_4144_b338_b39ff7ece9f8"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e983779e_c2a4_477e_ad6c_40022396aabe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_f04ea13c_4510_4097_983b_90da05094612"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ede8ac5a_5c44_43d2_b3f4_8b5d3a7c8ac0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ea1753b8_dd7c_432a_8aae_2739a4047b40"/>
+        <rdfs:label xml:lang="en">DoctorPolicy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_7580fa2e_8fc7_4249_b791_8881510f4c3b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_7580fa2e_8fc7_4249_b791_8881510f4c3b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cf16416d_2330_42f8_8e8a_f0a964fb8ba3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4431d704_1f39_4676_bb97_f090aff3e038"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f0c487d_3313_4084_8250_55e8c3897f83"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_459571c7_a96d_4c61_b109_572b44d01715"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_02653c51_b669_4449_bb4e_5827692e2313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_f04ea13c_4510_4097_983b_90da05094612"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_030dbc42_9ac6_4f11_a089_93c866aa5ac7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PhysicianEmployedByPatientInsuranceIsProhibitedPatientFile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_78849309_fab5_4e11_950b_7052aefc9738 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_78849309_fab5_4e11_950b_7052aefc9738">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_51874529_1ac6_4309_b590_db2935af26dd"/>
+        <rdfs:label xml:lang="en">DenyOverrides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_798c4e62_7e21_469c_b2eb_d07d288022f5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_798c4e62_7e21_469c_b2eb_d07d288022f5">
+        <rdfs:label xml:lang="en">RuleEffect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_836e585f_024e_4eea_ab02_3ce0aa26c316 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_836e585f_024e_4eea_ab02_3ce0aa26c316">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a3b0cd2e_c0ce_4de3_ad4d_1277aeb7b5c7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">ResourceType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_83b94943_3810_4154_b7ee_1c448ad7af75 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_83b94943_3810_4154_b7ee_1c448ad7af75">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6a0d30d0_1030_47fb_b935_00dfcdb936cd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8ed436f_b4b2_40aa_b415_cba711766ae1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c5b09f4c_2fa9_47b8_9fb3_fcc3a2f42f23"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_604e9250_3b8c_4622_a2a5_43ee7e7b4b3e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_836e585f_024e_4eea_ab02_3ce0aa26c316"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">ResourceIsPatientFile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_939cbcab_131b_4461_a7de_833dc2557b81 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_939cbcab_131b_4461_a7de_833dc2557b81">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6a0d30d0_1030_47fb_b935_00dfcdb936cd"/>
+        <rdfs:label xml:lang="en">ActionIsRead</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_95e6de13_96ae_4afc_a220_9b9ad2888fad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_95e6de13_96ae_4afc_a220_9b9ad2888fad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d98c4d10_e6eb_4656_b9f9_49192b703ab1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">ConsentedPhysicianIdentifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9641c933_5006_4963_93cc_9c3b7edb9396 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9641c933_5006_4963_93cc_9c3b7edb9396">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d57b83fc_14b9_4ee4_8fe2_3099bce2a6ca"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6e84f062_0878_4d1b_a02a_3631469bd7b1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">OnlyOnePatientFileHospitalId</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9c6bf1d8_138a_4c2d_8258_3ed16ed5623e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9c6bf1d8_138a_4c2d_8258_3ed16ed5623e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_da5f2a28_4560_4d9d_aac9_2bd9d3ae9940"/>
+        <rdfs:label xml:lang="en">Not</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f0c487d_3313_4084_8250_55e8c3897f83 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f0c487d_3313_4084_8250_55e8c3897f83">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8ed436f_b4b2_40aa_b415_cba711766ae1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c5b09f4c_2fa9_47b8_9fb3_fcc3a2f42f23"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_b7156e6f_5ebe_4703_acfb_a329e7ced762"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1350fae6_06dc_4831_a93b_eaa77c0f442b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PhysicianEmployerIdInPatientFileInsuranceId</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a68233da_8c13_40c0_90ee_86d7663c297e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Dynamic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a1e4894e_8fc5_4916_9c10_aa78ba365c8b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a1e4894e_8fc5_4916_9c10_aa78ba365c8b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_36113919_6433_4267_99b9_35ead0b0c2c1"/>
+        <rdfs:label xml:lang="en">Actions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a3b0cd2e_c0ce_4de3_ad4d_1277aeb7b5c7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a3b0cd2e_c0ce_4de3_ad4d_1277aeb7b5c7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_36113919_6433_4267_99b9_35ead0b0c2c1"/>
+        <rdfs:label xml:lang="en">Resource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a4df983f_50fa_434f_b474_114cea1ef487 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a4df983f_50fa_434f_b474_114cea1ef487">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a1e4894e_8fc5_4916_9c10_aa78ba365c8b"/>
+        <rdfs:label xml:lang="en">NamedAction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a55db16b_d56f_4b3e_9802_1eed2771d3b4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a55db16b_d56f_4b3e_9802_1eed2771d3b4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d57b83fc_14b9_4ee4_8fe2_3099bce2a6ca"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_20f509a6_82b0_43ef_bcb8_d95ccaf63131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">OnlyOnePhysicianId</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a6121445_adac_4165_b0de_dfea27c56e9a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a6121445_adac_4165_b0de_dfea27c56e9a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_52a28d04_69b4_4727_bf7e_db47ce017dc5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SubjectType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a68233da_8c13_40c0_90ee_86d7663c297e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a68233da_8c13_40c0_90ee_86d7663c297e">
+        <rdfs:label xml:lang="en">AttributeType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a75ef53a_5a47_43cf_8674_aea40dd1fa90 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a75ef53a_5a47_43cf_8674_aea40dd1fa90">
+        <OWLAnnotationProperty_b52ab737_1fff_4fb3_be19_7c81d92dc993>policySet</OWLAnnotationProperty_b52ab737_1fff_4fb3_be19_7c81d92dc993>
+        <rdfs:label xml:lang="en">PolicySet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ac2512d1_1011_4eed_95a5_f3e4fb071a07 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ac2512d1_1011_4eed_95a5_f3e4fb071a07">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d57b83fc_14b9_4ee4_8fe2_3099bce2a6ca"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6e84f062_0878_4d1b_a02a_3631469bd7b1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">OnlyOnePhysicianHospital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_afcd5100_01fc_4fdf_a4e7_2a61100f26b0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_afcd5100_01fc_4fdf_a4e7_2a61100f26b0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e13cf6d4_c6f6_4fa4_b54b_59135ba36f75"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PatientIdentifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_b7156e6f_5ebe_4703_acfb_a329e7ced762 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_b7156e6f_5ebe_4703_acfb_a329e7ced762">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d57b83fc_14b9_4ee4_8fe2_3099bce2a6ca"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8fc712d_7a92_4060_964f_f630455f262b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">OnlyOnePatientFileInsurance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_b9411eab_c733_4ecc_9977_298d8df16844 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_b9411eab_c733_4ecc_9977_298d8df16844">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_51874529_1ac6_4309_b590_db2935af26dd"/>
+        <rdfs:label xml:lang="en">PermitOverrides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_b99c0831_15b0_421c_812b_4a24105a02c6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_b99c0831_15b0_421c_812b_4a24105a02c6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_578dc3f5_d983_43e0_b2dc_7d3082b185b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_368eda5e_ef03_4953_a4f2_5b112af6600d"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_83b94943_3810_4154_b7ee_1c448ad7af75"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_368eda5e_ef03_4953_a4f2_5b112af6600d"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_939cbcab_131b_4461_a7de_833dc2557b81"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_368eda5e_ef03_4953_a4f2_5b112af6600d"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d5d51027_33d7_4f71_b083_6105f9f82624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ede8ac5a_5c44_43d2_b3f4_8b5d3a7c8ac0"/>
+        <rdfs:label xml:lang="en">PatientAccessesPatientFile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_bb1e27a6_2d0c_4b55_ba53_f1f946e5983f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_bb1e27a6_2d0c_4b55_ba53_f1f946e5983f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cf16416d_2330_42f8_8e8a_f0a964fb8ba3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4431d704_1f39_4676_bb97_f090aff3e038"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5ccd1d88_24ae_4024_9dbf_7cf730ff4754"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_459571c7_a96d_4c61_b109_572b44d01715"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e751882d_be25_4f8c_91b1_785ab5d5c21b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_f04ea13c_4510_4097_983b_90da05094612"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_030dbc42_9ac6_4f11_a089_93c866aa5ac7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PrimaryCarePhysicianIsAllowedToAccessPatientFile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c56e59c8_8f8b_4918_a708_eba41eea59ca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c56e59c8_8f8b_4918_a708_eba41eea59ca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6a0d30d0_1030_47fb_b935_00dfcdb936cd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8ed436f_b4b2_40aa_b415_cba711766ae1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c5b09f4c_2fa9_47b8_9fb3_fcc3a2f42f23"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_207cc902_8562_4fbf_af7d_ba852e957602"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a6121445_adac_4165_b0de_dfea27c56e9a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SubjectIsPhysician</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c7a854e8_ba4d_48cc_a1c6_7d861c5c122b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c7a854e8_ba4d_48cc_a1c6_7d861c5c122b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_feb6ab41_b1b1_47ca_bcad_cca6524dd772"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_36c0b725_64a4_40f2_9e07_8ae6843bd800"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">FixedValueAttributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8a4e1f7_e464_4938_9790_c2e183c80d60 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8a4e1f7_e464_4938_9790_c2e183c80d60">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c7a854e8_ba4d_48cc_a1c6_7d861c5c122b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3fd21667_4667_4dc3_8166_25be94fc5176"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d6219742_f05c_4c3d_b64b_7bcbf489cb81"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">ReadActionType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8ed436f_b4b2_40aa_b415_cba711766ae1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8ed436f_b4b2_40aa_b415_cba711766ae1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_da5f2a28_4560_4d9d_aac9_2bd9d3ae9940"/>
+        <rdfs:label xml:lang="en">StringEquals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8fc712d_7a92_4060_964f_f630455f262b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8fc712d_7a92_4060_964f_f630455f262b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1e262ad6_f5a8_4993_95e0_668331cfe4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4de6c431_324d_4491_a3ae_71ea2b645315"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f401f15_95f7_4b25_a9f5_9179bd079359"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_ab359f40_6439_4105_ab0a_5f352cca2a60"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c0397eef_2370_4bec_962e_af1767ac3f0b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d98c4d10_e6eb_4656_b9f9_49192b703ab1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">InsuredByFirmIdentifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cd947230_368f_4dd7_9375_6064659ec38c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cd947230_368f_4dd7_9375_6064659ec38c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ee5f5929_3a4b_47e9_bb63_59d44373a21c"/>
+        <rdfs:label xml:lang="en">Doctor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cf16416d_2330_42f8_8e8a_f0a964fb8ba3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cf16416d_2330_42f8_8e8a_f0a964fb8ba3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_22b901bd_96c3_4e50_85e3_b9c23305ab9e"/>
+        <rdfs:label xml:lang="en">NamedRule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d0bb7d46_056f_4b71_b9b0_9d424e09b807 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d0bb7d46_056f_4b71_b9b0_9d424e09b807">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_51874529_1ac6_4309_b590_db2935af26dd"/>
+        <rdfs:label xml:lang="en">DenyUnlessPermit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d57b83fc_14b9_4ee4_8fe2_3099bce2a6ca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d57b83fc_14b9_4ee4_8fe2_3099bce2a6ca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_da5f2a28_4560_4d9d_aac9_2bd9d3ae9940"/>
+        <rdfs:label xml:lang="en">OneAndOnlyOneString</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d5d51027_33d7_4f71_b083_6105f9f82624 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d5d51027_33d7_4f71_b083_6105f9f82624">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6a0d30d0_1030_47fb_b935_00dfcdb936cd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8ed436f_b4b2_40aa_b415_cba711766ae1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c5b09f4c_2fa9_47b8_9fb3_fcc3a2f42f23"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_2a3831cb_407e_4d57_b5cb_615522da954c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a6121445_adac_4165_b0de_dfea27c56e9a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SubjectIsPatient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d6219742_f05c_4c3d_b64b_7bcbf489cb81 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d6219742_f05c_4c3d_b64b_7bcbf489cb81">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a4df983f_50fa_434f_b474_114cea1ef487"/>
+        <rdfs:label xml:lang="en">Read</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d98c4d10_e6eb_4656_b9f9_49192b703ab1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d98c4d10_e6eb_4656_b9f9_49192b703ab1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_454d36e5_b6c0_4b88_a74f_8a7d2ce9ae98"/>
+        <rdfs:label xml:lang="en">PatientFile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_da5f2a28_4560_4d9d_aac9_2bd9d3ae9940 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_da5f2a28_4560_4d9d_aac9_2bd9d3ae9940">
+        <rdfs:label xml:lang="en">Functions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_dc87f4ad_b6e7_4148_a95e_d7cd1eda620e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_dc87f4ad_b6e7_4148_a95e_d7cd1eda620e">
+        <rdfs:label xml:lang="en">Condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_de28bb2c_9935_4deb_80f7_cfd34cff669e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_569067d1_ceb5_4302_a630_ffea81ad3fa5"/>
+        <rdfs:label xml:lang="en">StringDataType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e13cf6d4_c6f6_4fa4_b54b_59135ba36f75 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e13cf6d4_c6f6_4fa4_b54b_59135ba36f75">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ee5f5929_3a4b_47e9_bb63_59d44373a21c"/>
+        <rdfs:label xml:lang="en">Patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e751882d_be25_4f8c_91b1_785ab5d5c21b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e751882d_be25_4f8c_91b1_785ab5d5c21b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_798c4e62_7e21_469c_b2eb_d07d288022f5"/>
+        <rdfs:label xml:lang="en">Permit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e78fa273_aeb3_4fb1_9c10_d29c15c0b58f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e78fa273_aeb3_4fb1_9c10_d29c15c0b58f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_51874529_1ac6_4309_b590_db2935af26dd"/>
+        <rdfs:label xml:lang="en">OnlyOneApplicable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e983779e_c2a4_477e_ad6c_40022396aabe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e983779e_c2a4_477e_ad6c_40022396aabe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cf16416d_2330_42f8_8e8a_f0a964fb8ba3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4431d704_1f39_4676_bb97_f090aff3e038"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e983779e_c2a4_477e_ad6c_40022396aabe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_459571c7_a96d_4c61_b109_572b44d01715"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_02653c51_b669_4449_bb4e_5827692e2313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_f04ea13c_4510_4097_983b_90da05094612"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_030dbc42_9ac6_4f11_a089_93c866aa5ac7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">NonResidentDoctorIsProhibitedFromAccessingPatientFile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ea1753b8_dd7c_432a_8aae_2739a4047b40 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ea1753b8_dd7c_432a_8aae_2739a4047b40">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_39e94d06_fed7_4377_8c17_742c23bd9415"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_2373e055_f31e_4f06_ad8f_377dfd282775"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d0bb7d46_056f_4b71_b9b0_9d424e09b807"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_459571c7_a96d_4c61_b109_572b44d01715"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_f69e5934_c0f5_4cd4_83c1_8f8805815649"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_f04ea13c_4510_4097_983b_90da05094612"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_b99c0831_15b0_421c_812b_4a24105a02c6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PatientPolicy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ec723fba_d492_4d02_9cb9_4124568b137c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ec723fba_d492_4d02_9cb9_4124568b137c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_422f93ab_72d8_4761_aad0_681430be6776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_3b402750_9b1f_47e1_a69a_9cc02d3525df"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8ed436f_b4b2_40aa_b415_cba711766ae1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_c5b09f4c_2fa9_47b8_9fb3_fcc3a2f42f23"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_0d0d8d7b_241c_4f08_abc6_5ccd96a25e6a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_cd905c0e_a50d_4274_be47_52da53a4d68e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_20b0a6ee_fea1_45fa_b646_2d60b84b6511"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PatientIdIsPatientFilePatientId</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ede8ac5a_5c44_43d2_b3f4_8b5d3a7c8ac0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ede8ac5a_5c44_43d2_b3f4_8b5d3a7c8ac0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_578dc3f5_d983_43e0_b2dc_7d3082b185b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_368eda5e_ef03_4953_a4f2_5b112af6600d"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_83b94943_3810_4154_b7ee_1c448ad7af75"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_368eda5e_ef03_4953_a4f2_5b112af6600d"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_939cbcab_131b_4461_a7de_833dc2557b81"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_368eda5e_ef03_4953_a4f2_5b112af6600d"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c56e59c8_8f8b_4918_a708_eba41eea59ca"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">DoctorAccessesPatientFile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ee5f5929_3a4b_47e9_bb63_59d44373a21c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ee5f5929_3a4b_47e9_bb63_59d44373a21c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_65c28257_5fc2_493c_9e22_976566c15752"/>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_f18e75f7_99a9_4621_b7b4_8be3be9d48c6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_f18e75f7_99a9_4621_b7b4_8be3be9d48c6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_51874529_1ac6_4309_b590_db2935af26dd"/>
+        <rdfs:label xml:lang="en">FirstApplicable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_f69e5934_c0f5_4cd4_83c1_8f8805815649 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_f69e5934_c0f5_4cd4_83c1_8f8805815649">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_cf16416d_2330_42f8_8e8a_f0a964fb8ba3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_4431d704_1f39_4676_bb97_f090aff3e038"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ec723fba_d492_4d02_9cb9_4124568b137c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_459571c7_a96d_4c61_b109_572b44d01715"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e751882d_be25_4f8c_91b1_785ab5d5c21b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLObjectProperty_f04ea13c_4510_4097_983b_90da05094612"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_030dbc42_9ac6_4f11_a089_93c866aa5ac7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PatientIsAllowedToAccessOwnPatientFile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_f970721a_ebd5_4c00_9156_d587a9fa4697 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_f970721a_ebd5_4c00_9156_d587a9fa4697">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_36113919_6433_4267_99b9_35ead0b0c2c1"/>
+        <rdfs:label xml:lang="en">Environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_fe7afffb_d86d_452d_a1a8_b1241b6b6fcd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_fe7afffb_d86d_452d_a1a8_b1241b6b6fcd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a75ef53a_5a47_43cf_8674_aea40dd1fa90"/>
+        <rdfs:label xml:lang="en">NamedPolicySet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_feb6ab41_b1b1_47ca_bcad_cca6524dd772 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_feb6ab41_b1b1_47ca_bcad_cca6524dd772">
+        <rdfs:label xml:lang="en">Attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <OWLAnnotationProperty_b52ab737_1fff_4fb3_be19_7c81d92dc993></OWLAnnotationProperty_b52ab737_1fff_4fb3_be19_7c81d92dc993>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_02653c51_b669_4449_bb4e_5827692e2313"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_2e0074d7_d5c2_4217_a96a_f720d5b29829"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_4cd44a8a_0d41_46fb_ba98_5293ff07fc19"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e751882d_be25_4f8c_91b1_785ab5d5c21b"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_0d0d8d7b_241c_4f08_abc6_5ccd96a25e6a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1350fae6_06dc_4831_a93b_eaa77c0f442b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1a03cb59_8796_4980_a86e_fa957a920b84"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_20b0a6ee_fea1_45fa_b646_2d60b84b6511"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_211e06e2_c556_401f_86bd_b007ea28e2fd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_4e90e185_e090_4e42_8bc9_1d9b6c646df8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5ccd1d88_24ae_4024_9dbf_7cf730ff4754"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6133a0af_8c01_481b_bf55_ff71de67598e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9641c933_5006_4963_93cc_9c3b7edb9396"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9f0c487d_3313_4084_8250_55e8c3897f83"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ac2512d1_1011_4eed_95a5_f3e4fb071a07"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_b7156e6f_5ebe_4703_acfb_a329e7ced762"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_ec723fba_d492_4d02_9cb9_4124568b137c"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_1720371c_5c69_479b_9f6c_e9c13a17b74b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_78849309_fab5_4e11_950b_7052aefc9738"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_b9411eab_c733_4ecc_9977_298d8df16844"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d0bb7d46_056f_4b71_b9b0_9d424e09b807"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e78fa273_aeb3_4fb1_9c10_d29c15c0b58f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_f18e75f7_99a9_4621_b7b4_8be3be9d48c6"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_20f509a6_82b0_43ef_bcb8_d95ccaf63131"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_3fa00fa9_f7f1_43da_af3c_6b6d1eec3dce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5f384f04_adb7_4003_986f_4288266e03af"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6e84f062_0878_4d1b_a02a_3631469bd7b1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_95e6de13_96ae_4afc_a220_9b9ad2888fad"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_afcd5100_01fc_4fdf_a4e7_2a61100f26b0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8fc712d_7a92_4060_964f_f630455f262b"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_22b901bd_96c3_4e50_85e3_b9c23305ab9e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_390dfa9d_3b5b_410b_842f_5409914037ed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_51874529_1ac6_4309_b590_db2935af26dd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_52a28d04_69b4_4727_bf7e_db47ce017dc5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_569067d1_ceb5_4302_a630_ffea81ad3fa5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5b874b9b_fda0_453c_bc0b_94a39a98af49"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6a0d30d0_1030_47fb_b935_00dfcdb936cd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_798c4e62_7e21_469c_b2eb_d07d288022f5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a3b0cd2e_c0ce_4de3_ad4d_1277aeb7b5c7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a68233da_8c13_40c0_90ee_86d7663c297e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a75ef53a_5a47_43cf_8674_aea40dd1fa90"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_da5f2a28_4560_4d9d_aac9_2bd9d3ae9940"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_dc87f4ad_b6e7_4148_a95e_d7cd1eda620e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_feb6ab41_b1b1_47ca_bcad_cca6524dd772"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_22b901bd_96c3_4e50_85e3_b9c23305ab9e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_390dfa9d_3b5b_410b_842f_5409914037ed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_51874529_1ac6_4309_b590_db2935af26dd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_52a28d04_69b4_4727_bf7e_db47ce017dc5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5b874b9b_fda0_453c_bc0b_94a39a98af49"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_798c4e62_7e21_469c_b2eb_d07d288022f5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a3b0cd2e_c0ce_4de3_ad4d_1277aeb7b5c7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a75ef53a_5a47_43cf_8674_aea40dd1fa90"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_da5f2a28_4560_4d9d_aac9_2bd9d3ae9940"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_feb6ab41_b1b1_47ca_bcad_cca6524dd772"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_22b901bd_96c3_4e50_85e3_b9c23305ab9e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_390dfa9d_3b5b_410b_842f_5409914037ed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_51874529_1ac6_4309_b590_db2935af26dd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_52a28d04_69b4_4727_bf7e_db47ce017dc5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5b874b9b_fda0_453c_bc0b_94a39a98af49"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_798c4e62_7e21_469c_b2eb_d07d288022f5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a3b0cd2e_c0ce_4de3_ad4d_1277aeb7b5c7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a75ef53a_5a47_43cf_8674_aea40dd1fa90"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_feb6ab41_b1b1_47ca_bcad_cca6524dd772"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_390dfa9d_3b5b_410b_842f_5409914037ed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_51874529_1ac6_4309_b590_db2935af26dd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a75ef53a_5a47_43cf_8674_aea40dd1fa90"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_52a28d04_69b4_4727_bf7e_db47ce017dc5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a1e4894e_8fc5_4916_9c10_aa78ba365c8b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_a3b0cd2e_c0ce_4de3_ad4d_1277aeb7b5c7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_f970721a_ebd5_4c00_9156_d587a9fa4697"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_5f53853d_fe8a_4286_9ed3_98956db34690"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_7580fa2e_8fc7_4249_b791_8881510f4c3b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_bb1e27a6_2d0c_4b55_ba53_f1f946e5983f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_e983779e_c2a4_477e_ad6c_40022396aabe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_f69e5934_c0f5_4cd4_83c1_8f8805815649"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_6d028003_5019_45f0_a234_c428313f6fb9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_9c6bf1d8_138a_4c2d_8258_3ed16ed5623e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c8ed436f_b4b2_40aa_b415_cba711766ae1"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_83b94943_3810_4154_b7ee_1c448ad7af75"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_c56e59c8_8f8b_4918_a708_eba41eea59ca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/steven/ontologies/2020/4/abac3#OWLClass_d5d51027_33d7_4f71_b083_6105f9f82624"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
