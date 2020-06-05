@@ -14,7 +14,7 @@ $ mvn clean package
 
 In project root directory:
 
-$ run.sh <path-to-xacml-policyset> <path-to-request-file>
+$ run.sh path-to-xacml-policyset path-to-request-file
 
 ## Instruction:
 
