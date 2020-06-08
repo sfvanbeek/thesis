@@ -1,6 +1,5 @@
 package nl.uva.thesis.policytester;
 
-import lombok.extern.log4j.Log4j2;
 import nl.uva.thesis.policytester.impl.PolicyTester;
 import nl.uva.thesis.policytester.model.requests.Request;
 import nl.uva.thesis.policytester.model.requests.Requests;
